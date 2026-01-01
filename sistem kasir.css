@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #fff9e6; /* kuning soft background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    width: 350px;
+    padding: 20px;
+    background: #fff2b3; /* kuning soft container */
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    color: #b58900; /* kuning kecoklatan */
+}
+
+label {
+    font-size: 14px;
+    font-weight: bold;
+    color: #6b5b00;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin: 6px 0 12px;
+    border-radius: 6px;
+    border: 1px solid #e0d18c;
+    background: #fffdf3;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    font-size: 15px;
+    background: #f4c430; /* kuning soft tombol */
+    color: #5a4a00;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+button:hover {
+    background: #e6b800;
+}
+
+#hasil {
+    margin-top: 15px;
+    font-size: 16px;
+    background: #fffbea;
+    padding: 10px;
+    border-left: 4px solid #f4c430;
+    color: #5a4a00;
+}
